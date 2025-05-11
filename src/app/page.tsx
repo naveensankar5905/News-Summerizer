@@ -42,6 +42,7 @@ export default function NewsDigestPage() {
     defaultValues: {
       url: "",
     },
+    mode: 'onChange', // Ensures validation runs on change for immediate UI updates
   });
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
@@ -83,7 +84,6 @@ export default function NewsDigestPage() {
 
   React.useEffect(() => {
     // If URL changes and it's different from the previous one used for summarization, clear summary.
-    // This avoids clearing summary if user just re-focuses input or makes minor non-submitting changes.
     if (currentUrl !== prevUrlRef.current && summary) {
         setSummary(null);
     }
