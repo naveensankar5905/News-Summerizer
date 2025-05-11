@@ -47,4 +47,19 @@ NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 OPENAI_API_KEY=your_openai_api_key
 
 ```
+4. Run the Development Server
+   
+```bash
+npm run dev
+```
 
+Now, open http://localhost:3000 in your browser to see the app.
+
+📦 Deployment
+You can deploy this app on platforms like Vercel, Firebase Hosting, or Netlify.
+
+🙌 Contributions
+Pull requests and stars are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
