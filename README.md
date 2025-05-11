@@ -30,4 +30,21 @@ News-Summerizer/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/naveensankar5905/News-Summerizer.git
-cd News-Summerizer
+
+```
+####2. Install Dependencies
+Make sure you have Node.js and npm installed.
+```bash
+npm install
+```
+3. Set Up Environment Variables
+Create a .env.local file for Firebase and OpenAI keys:
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+# Add other Firebase configs here
+OPENAI_API_KEY=your_openai_api_key
+
+```
+
