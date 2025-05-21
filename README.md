@@ -32,7 +32,7 @@ News-Summerizer/
 git clone https://github.com/naveensankar5905/News-Summerizer.git
 
 ```
-####2. Install Dependencies
+2. Install Dependencies
 Make sure you have Node.js and npm installed.
 ```bash
 npm install
